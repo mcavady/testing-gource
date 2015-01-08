@@ -10,7 +10,7 @@ body {
 #sidemenu a {color: #fff;}
 /* sidebar tabs at the top of the sidebar */
 #sidebarTabs{width:100%;margin-bottom:10px;float:left;}
-.news {
+.top-sidebar-button-left {
     background: none repeat scroll 0 0 #1DD0E7;
     float: left;
 	font-size: 1.7em;
@@ -24,7 +24,7 @@ body {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
-.community{
+.top-sidebar-button-right{
 	width:69%;
 	background: none repeat scroll 0 0 #428bca;
     float: right;
