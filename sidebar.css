@@ -71,14 +71,14 @@ body {
 	border-radius: 5px;
 }
 .topLevel-title {
-    background: #404140;
+    background: none repeat scroll 0 0 #404140;
     color: #fff;
     float: left;
     height: 30px;
     padding-bottom: 10px;
+    padding-left: 20px;
     padding-top: 10px;
-    text-align: center;
-    width: 300px;
+    width: 280px;
 	
 	-webkit-border-top-right-radius: 5px;
 	-webkit-border-bottom-right-radius: 5px;
@@ -87,8 +87,12 @@ body {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+.topLevel-title:hover {
+    background: none repeat scroll 0 0 #fff;
+    color: #000;
+}
 .topLevel-category-color {
-    background: none repeat scroll 0 0 #ff9000;
+    background: none repeat scroll 0 0 #000;
     float: left;
     height: 50px;
     width: 20px;
@@ -127,13 +131,13 @@ body {
 	border-radius: 5px;
 }
 .secondLevel-color {
-    background: none repeat scroll 0 0 #ff9000;
+    background: none repeat scroll 0 0 #6c6c6c;
     float: left;
     width: 20px;
 	height:50px;
 }
 .secondLevel-top-color {
-    background: none repeat scroll 0 0 #ff9000;
+    background: none repeat scroll 0 0 #6c6c6c;
     float: left;
     width: 20px;
 	height:20px;
@@ -143,7 +147,7 @@ body {
 	border-top-left-radius: 5px;
 }
 .secondLevel-bottom-color {
-    background: none repeat scroll 0 0 #ff9000;
+    background: none repeat scroll 0 0 #6c6c6c;
     float: left;
     width: 20px;
 	height:4px;
