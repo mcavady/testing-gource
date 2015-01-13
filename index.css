@@ -1,0 +1,48 @@
+/* === Index.css for the index page ===*/
+
+body {
+    background: none repeat scroll 0 0 #d9a9c8;
+}
+header {
+    background: none repeat scroll 0 0 #ff9000;
+    float: left;
+    margin-bottom: 20px;
+    min-height: 100px;
+    width: 100%;
+}
+nav{
+	background: none repeat scroll 0 0 #0090dd;
+    float: left;
+	margin-bottom: 20px;
+    width: 100%;	
+}
+.sidebar {
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    min-height: 320px;
+    min-width: 25%;
+}
+.main-content {
+    background: none repeat scroll 0 0 #fff;
+    float: right;
+    margin-left: 20px;
+    min-height: 320px;
+    width: 70%;
+}
+footer{
+	background: none repeat scroll 0 0 #0090dd;
+    float: left;
+	margin-top: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+.sidebar {
+	min-width: 100%;
+}
+.main-content {
+   	min-width: 100%;
+}
+
+}
