@@ -3,6 +3,7 @@
 body {
     background: none repeat scroll 0 0 #d9a9c8;
 }
+/* == header ==*/
 header {
     background: none repeat scroll 0 0 #ff9000;
     float: left;
@@ -10,18 +11,51 @@ header {
     min-height: 100px;
     width: 100%;
 }
+header .header-site-logo {
+	float:left;
+	background:#000;
+	color:#fff;
+	width:320px;
+	height:100px;
+	margin-right:20px;
+}
+header .header-site-h1-h2 {
+	float:left;
+	}
+header h1 {
+	float:left;
+}
+header h2 {
+	float:left;
+	clear:both;
+}
+
+/* == navigation ==*/
 nav{
 	background: none repeat scroll 0 0 #0090dd;
     float: left;
 	margin-bottom: 20px;
     width: 100%;	
 }
+nav ul {
+	margin:0px;
+}
+nav li {
+    display: inline;
+    float: left;
+	margin-left:20px;
+	padding:10px;
+}
+
+/* == sidebar ==*/
 .sidebar {
     background: none repeat scroll 0 0 #fff;
     float: left;
     min-height: 320px;
     min-width: 25%;
 }
+
+/* == main content ==*/
 .main-content {
     background: none repeat scroll 0 0 #fff;
     float: right;
@@ -29,12 +63,16 @@ nav{
     min-height: 320px;
     width: 70%;
 }
+
+/* == footer ==*/
 footer{
 	background: none repeat scroll 0 0 #0090dd;
     float: left;
 	margin-top: 20px;
     width: 100%;
 }
+
+/* == media query's ==*/
 
 @media screen and (max-width: 600px) {
 
